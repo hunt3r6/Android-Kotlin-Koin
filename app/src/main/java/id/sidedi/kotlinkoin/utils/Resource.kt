@@ -1,6 +1,4 @@
-package id.sidedi.kotlinkoin.data
-
-import id.sidedi.kotlinkoin.utils.Status
+package id.sidedi.kotlinkoin.utils
 
 data class Resource<out T>(val status: Status, val data: T?, val message: String?) {
 
